@@ -17,7 +17,19 @@ public class NavigationalMethodsDemo {
 		driver.findElement(By.linkText("Forgot password?")).click();
 		Thread.sleep(2000);
 		
+		//Verify element is present on current screen?
+		//Verify element is present enabled or disable state?
+		//Clear the existing test data
+		//type some info to editbox
 		driver.findElement(By.name("email")).sendKeys("kahsfkasfk");
+		
+		driver.findElement(By.name("email")).click();
+		
+		
+		
+		
+		
+		
 		
 		//Refresh the page
 		driver.navigate().refresh();
