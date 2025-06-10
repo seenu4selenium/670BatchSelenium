@@ -17,7 +17,7 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.31.0</version>
 		</dependency>
-
+<!--test-->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
