@@ -15,6 +15,10 @@ public class DemoClass {
 		driver.manage().window().maximize();
 		driver.get("https://demoqa.com/alerts");
 		Thread.sleep(2000);
+		// Scroll into view code
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.id("alertButton")));
+		Thread.sleep(2000);
 
 		driver.findElement(By.id("alertButton")).click();
 		Thread.sleep(2000);
@@ -26,7 +30,7 @@ public class DemoClass {
 		Thread.sleep(2000);
 
 		// Scroll to the element
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		
 		js.executeScript("arguments[0].scrollIntoView();", driver.findElement(By.id("confirmButton")));
 
 		// Click on third CLICKME button

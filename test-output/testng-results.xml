@@ -2,27 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-08T20:02:01 MDT" name="Default suite" finished-at="2025-05-08T20:02:16 MDT" duration-ms="15459">
+  <suite started-at="2025-06-06T20:05:54 MDT" name="Default suite" finished-at="2025-06-06T20:06:09 MDT" duration-ms="15668">
     <groups>
     </groups>
-    <test started-at="2025-05-08T20:02:01 MDT" name="Default test" finished-at="2025-05-08T20:02:16 MDT" duration-ms="15459">
-      <class name="com.testngDemo.CrossBrowserTestingDemo">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.testngDemo.CrossBrowserTestingDemo@4c178a76]" started-at="2025-05-08T20:02:01 MDT" name="beforeClass" finished-at="2025-05-08T20:02:04 MDT" duration-ms="3899" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="f()[pri:0, instance:com.testngDemo.CrossBrowserTestingDemo@4c178a76]" started-at="2025-05-08T20:02:04 MDT" name="f" finished-at="2025-05-08T20:02:16 MDT" duration-ms="11508" status="PASS">
+    <test started-at="2025-06-06T20:05:54 MDT" name="Default test" finished-at="2025-06-06T20:06:09 MDT" duration-ms="15668">
+      <class name="com.testngDemo.AlertDemo">
+        <test-method signature="f()[pri:0, instance:com.testngDemo.AlertDemo@2f4948e4]" started-at="2025-06-06T20:05:54 MDT" name="f" finished-at="2025-06-06T20:06:09 MDT" duration-ms="15488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- com.testngDemo.CrossBrowserTestingDemo -->
+      </class> <!-- com.testngDemo.AlertDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

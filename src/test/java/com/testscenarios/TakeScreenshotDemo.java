@@ -34,7 +34,6 @@ public class TakeScreenshotDemo {
 		
 		
 		File abc = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		//
 		FileHandler.copy(abc, new File(".\\screenshots\\pqeTest_"+timeStamp+".png"));
 
 	}
